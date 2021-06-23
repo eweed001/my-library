@@ -1,0 +1,502 @@
+html {
+  font-family: "Tahoma",sans-serif, Verdana;
+}
+
+.home_body{
+  background-color: #a2bad6;
+}
+
+.banner{
+  height:40px;
+  margin-top:60px;
+  padding-top:50px;
+  width:100%;
+  background-color:#a3bad6;
+}
+img.home_image{
+  float:left;
+  width:500px;
+  height:auto;
+  padding-left: 150px;
+  padding-top:100px;
+  padding-right:100px;
+}
+header{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 80px;
+}
+nav ul{
+  margin: 0px;
+  padding: 0px 0px 10px 50px;
+}
+nav li{
+  display: inline;
+  margin-right: 30px;
+  color:black;
+  padding: 8px 8px 8px 8px;
+}
+.log_out{
+  float:right;
+  color:#404040;
+  text-decoration: none;
+  font-size: 23px;
+  background-color: lightgrey;
+  border-radius: 7px;
+  margin-top:-15px;
+}
+nav a{
+  color:#404040;
+  text-decoration: none;
+  font-size: 23px;
+}
+.active{
+  background-color: lightgray;
+  text-decoration: none;
+  padding: 8px 8px 8px 8px;
+  border-radius: 7px;
+  padding-top:10px;
+}
+.active a{
+  color:black;
+}
+
+a {
+  text-decoration: none;
+  color:#404040;
+}
+.sidebar{
+  width: 240px;
+  background-color: transparent;
+  height:auto;
+  margin-top:75px;
+  margin-right:20px;
+  margin-left: 108px;
+  border: solid black 3px;
+  position:absolute;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.main{
+  margin-left: 440px;
+  width:845px;
+  background-color: transparent;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.main ul{
+  margin-left: 10px;
+  list-style-type: none;
+
+}
+.main li{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid black;
+  background-color: rgba(201, 201, 201, 0.9);
+}
+.search_form{
+  margin-left: 108px;
+  margin-top:70px;
+  font-size: 20px;
+
+
+}
+[id = "search"]{
+  background-color: lightgray;
+  border-radius: 10px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+.search_form button{
+  border-radius: 8px;
+  background-color:white;
+}
+.button_text{
+  color:#15097e;
+}
+.sorting{
+  float:right;
+  padding-left: 50px;
+  margin-right:-20px;
+}
+
+.tiled{
+  width:930px;
+  margin-top: 25px;
+}
+
+.tile{
+  width:240px;
+  height: 410px;
+  border: solid black;
+  margin-left: 30px;
+  margin-right:20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  display: inline-block;
+  vertical-align: top;
+  background-color:white;
+  box-shadow: 0px 5px 15px #404040;
+  position:relative;
+}
+.avail_top{
+  text-align: center;
+background-color: white;
+}
+img.book_cover{
+  width: 240px;
+  height: 300px;
+}
+.tile p{
+  padding-left:5px;
+  font-size: 13px;
+  padding-top:0px;
+  margin-top:0px;
+  margin-bottom:3px;
+
+}
+.title{
+  padding-bottom: 2px;
+
+}
+.title p {
+  font-size:15px;
+}
+
+.tags{
+  display:inline-flex;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-left: 5px;
+  padding:3px 3px 3px 3px;
+  font-size:14px;
+  margin-top:-5px;
+}
+.fiction{
+  color:#C90DAD;
+}
+.fantasy{
+  color:#1a47d9;
+}
+.horror{
+  color:#d62118;
+}
+.mystery{
+  color:#2D7407;
+}
+.nonfiction{
+  color: #0C747D;
+}
+.romance{
+  color:#180269;
+}
+.sci-fi{
+  color:#7b02c7;
+}
+.thriller{
+  color:#590308;
+}
+.other{
+  color:#3d3d3d;
+}
+
+.login{
+  float:right;
+  color:#404040;
+  border:solid white 5px;
+  background-color: white;;
+  padding:20px;
+  border-radius: 30px;
+  margin-top:-30px;
+}
+.login input{
+  border-radius:5px;
+  padding:5px;
+  background-color: lightgray;
+  margin-right: 4px;
+}
+.login button{
+  border-radius:15px;
+  background-color: lightgray;
+  padding:5px;
+  margin-left:5px;
+  width:60px;
+  color:#404040;
+}
+
+.login_feedback{
+  color:#E60000;
+}
+.back_button{
+  border: solid 3px lightgrey;
+  border-radius:10px;
+  background-color: lightgrey;
+  text-decoration: none;
+  color:black;
+  margin-left:50px;
+  padding:5px;
+}
+img.book_cover_full{
+  margin-left:110px;
+  margin-top:50px;
+  width:340px;
+  height: 520px;
+  margin-right:20px;
+  box-shadow: 0px 5px 15px #404040;
+}
+img.book_cover_add{
+  margin-left:0px;
+  width:200px;
+  height: 310px;
+  margin-right:20px;
+  box-shadow: 0px 5px 15px #404040;
+}
+.full_record{
+  width:1300px;
+  margin-top:30px;
+}
+.full_record_editing{
+  width:1400px;
+  margin-top:30px;
+}
+.cover{
+  float:left;
+}
+.details{
+  margin-top: 50px;
+  margin-left:20px;
+}
+.details_right{
+  float:right;
+  /* margin-right:20px; */
+}
+.details_right_delete{
+  float:right;
+  margin-right:50px;
+  margin-bottom: -10px;
+}
+.deleted{
+  margin-left:100px;
+}
+.full_record .tags{
+  font-size:17px;
+  margin-left:0;
+}
+.full_record h2{
+  margin-left:110px;
+}
+.full_record h3{
+  margin-left:110px;
+}
+.full_record_editing input{
+  padding:10px;
+  width: 200px;
+  font-size: 17px;
+}
+[id = "pub_year"]{
+  width:150px;
+}
+
+.full_record_editing label{
+  display:inline-block;
+  width:200px;
+}
+
+.form_position{
+  width:1180px;
+  margin-top: 40px;
+  margin-left:80px;
+  display:inline-block;
+}
+.form_left_content{
+  width:400px;
+  float:left;
+}
+.feedback{
+  color:#d40e0e;
+}
+.edit{
+  float:right;
+  font-size: 14px;
+  padding-right:6px;
+  margin-right:-3px;
+  margin-bottom: -3px;
+  border:solid black 3px;
+  padding-top:1px;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+.edit p{
+  font-size: 14px;
+
+}
+.right_content{
+  float:right;
+  font-size:14px;
+  padding-right:6px;
+}
+.right_content p{
+  font-size:13px;
+}
+#description{
+margin-top:20px;
+  font-size: 12px;
+}
+
+.genre-checkboxes{
+  display:inline-block;
+  margin-right:-85px;
+  margin-left: -50px;
+  padding-right:0px;
+
+}
+
+.available-radio{
+  display:inline-block;
+  margin-right:-85px;
+  margin-left: -50px;
+  padding-right:0px;
+}
+
+.update-button{
+  margin-top:20px;
+  margin-bottom:30px;
+
+}
+.cover-citation{
+position:absolute;
+bottom:0;
+}
+.cover-citation a {
+text-decoration: underline;
+color:black;
+font-size: 10px;
+
+}
+
+.cover a {
+  margin-left:110px;
+  font-size: 13px;
+}
+
+.home_content{
+  margin-left:800px;
+  margin-top:180px;
+  margin-right:100px;
+}
+.home_content h1{
+  font-size:38px;
+}
+.home_content p{
+  font-size: 19px;
+}
+
+.home_content [id = "search"]{
+  background-color: lightgray;
+  border-radius: 10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  width:250px;
+}
+
+.home_content button{
+  font-size:18px;
+  border-radius: 8px;
+  background-color:white;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+.form_position .tiled{
+  width:1500px;
+
+}
+
+.form_position .tile_book{
+  width:800px;
+  height: 100%;
+  border: solid black 2px;
+  margin-left: 30px;
+  margin-right:20px;
+  display: inline-block;
+  vertical-align: top;
+  background-color:white;
+  position:relative;
+  padding:10px;
+}
+
+.form_position .tile_genre{
+  width:260px;
+  height: 100%;
+  border: solid black 2px;
+  margin-left: 30px;
+  margin-right:20px;
+  padding-left:5px;
+  display: inline-block;
+  vertical-align: top;
+  background-color:white;
+  position:relative;
+}
+
+fieldset{
+border:none
+}
+
+.tile_book label span{
+  display:inline-block;
+  width:170px;
+}
+
+[name = "rating"], [name = "publication_year"], [name = "isbn"], [name = "title"], [name = "first_name"], [name = "last_name"], [name = "citation"]{
+  padding:3px;
+  border-radius:5px;
+  border:solid 1px;
+}
+.checkboxes li{
+  display: block;
+  float: left;
+  width: 20%;
+  margin-left:8px;
+}
+[name = "cover-image"]{
+  margin-bottom:10px;
+}
+[name ="submit"]{
+  margin-left:150%;
+  width:100px;
+  height:40px;
+  background-color:darkgrey;
+}
+.form_position button{
+  padding:3px;
+}
+textarea{
+  padding:5px;
+}
+[name ="add"]{
+  margin-top: 20px;
+  width:100px;
+  height:40px;
+  background-color:darkgrey;
+}
+.notfound_content{
+  margin-left:100px;
+}
+.hidden {
+  display: none;
+}
+.confirmation{
+  width:600px;
+  height:100px;
+}
+
+.confirmation .cover a {
+  margin-left:0px;
+  font-size: 11px;
+}
